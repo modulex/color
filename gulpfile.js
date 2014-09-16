@@ -44,7 +44,7 @@ gulp.task('build', ['lint'], function () {
             files: [
                 {
                     src: './lib/' + tag + '-debug.js',
-                    outputModule:  tag
+                    outputModule: tag
                 }
             ]
         }))
@@ -55,6 +55,8 @@ gulp.task('build', ['lint'], function () {
         .pipe(uglify())
         .pipe(rename(tag + '.js'))
         .pipe(gulp.dest(path.resolve(build)));
+});
+gulp.task('mx', function () {
 });
 
 gulp.task('default', ['build']);
