@@ -14,6 +14,6 @@
     "!index.js"
   ],
   "dependencies": {
-    "modulex": "~1.1.3"
+    "modulex": "modulex#master"
   }
 }
