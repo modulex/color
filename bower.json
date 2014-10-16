@@ -14,6 +14,6 @@
     "!index.js"
   ],
   "dependencies": {
-    "modulex": "modulex#master"
+    "modulex": "*"
   }
 }
